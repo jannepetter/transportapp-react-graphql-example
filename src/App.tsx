@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import gql from 'graphql-tag'
+import { useQuery, useMutation, useSubscription, useApolloClient } from "@apollo/react-hooks"
 
-const App = () => {
+const AGENCIES = gql`	
+{
+  agencies {
+    id
+    name
+  }
+}
+`
+
+const App: React.FC = () => {
+  const agencies = useQuery(AGENCIES)
+  console.log(agencies, 'check if workss')
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      hello
     </div>
   );
 }
