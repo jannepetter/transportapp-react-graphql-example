@@ -1,0 +1,13 @@
+.canvas{
+    background-color: rgb(179, 186, 192);
+}
+.stoplist{
+    background-color: rgb(211, 212, 211);
+}
+.listItem{
+    list-style: none;
+    tab-size: 125px;
+    white-space: pre;
+    margin-left: 10px;
+    font-size: x-small;
+}

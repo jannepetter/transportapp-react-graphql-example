@@ -1,0 +1,16 @@
+.header{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(27, 114, 73);
+    display: flex;
+    align-items: center;
+
+}
+.headerInput{
+    margin: 10px;
+    width: 100px;
+}
+
+.routelist{
+    list-style: none;
+}

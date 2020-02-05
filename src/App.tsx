@@ -1,22 +1,13 @@
 import React from 'react';
-import gql from 'graphql-tag'
-import { useQuery, useMutation, useSubscription, useApolloClient } from "@apollo/react-hooks"
-
-const AGENCIES = gql`	
-{
-  agencies {
-    id
-    name
-  }
-}
-`
+import { useQuery } from "@apollo/react-hooks"
+import RouteList from './components/RouteList'
+import {AGENCY} from './graphql/queries/AGENCY'
 
 const App: React.FC = () => {
-  const agencies = useQuery(AGENCIES)
-  console.log(agencies, 'check if workss')
+  const agency = useQuery(AGENCY)
   return (
     <div >
-      hello
+      <RouteList agency={agency}></RouteList>
     </div>
   );
 }
