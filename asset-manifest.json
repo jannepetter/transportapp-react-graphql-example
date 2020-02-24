@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/transportapp-react-graphql-example/static/css/main.892eeb28.chunk.css",
+    "main.js": "/transportapp-react-graphql-example/static/js/main.5e4e5294.chunk.js",
+    "main.js.map": "/transportapp-react-graphql-example/static/js/main.5e4e5294.chunk.js.map",
+    "runtime-main.js": "/transportapp-react-graphql-example/static/js/runtime-main.937fdd4c.js",
+    "runtime-main.js.map": "/transportapp-react-graphql-example/static/js/runtime-main.937fdd4c.js.map",
+    "static/js/2.a9b05645.chunk.js": "/transportapp-react-graphql-example/static/js/2.a9b05645.chunk.js",
+    "static/js/2.a9b05645.chunk.js.map": "/transportapp-react-graphql-example/static/js/2.a9b05645.chunk.js.map",
+    "index.html": "/transportapp-react-graphql-example/index.html",
+    "precache-manifest.49d89566e9bc2196f65ccc875a7b08d3.js": "/transportapp-react-graphql-example/precache-manifest.49d89566e9bc2196f65ccc875a7b08d3.js",
+    "service-worker.js": "/transportapp-react-graphql-example/service-worker.js",
+    "static/css/main.892eeb28.chunk.css.map": "/transportapp-react-graphql-example/static/css/main.892eeb28.chunk.css.map",
+    "static/js/2.a9b05645.chunk.js.LICENSE.txt": "/transportapp-react-graphql-example/static/js/2.a9b05645.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.937fdd4c.js",
+    "static/js/2.a9b05645.chunk.js",
+    "static/css/main.892eeb28.chunk.css",
+    "static/js/main.5e4e5294.chunk.js"
+  ]
+}
